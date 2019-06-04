@@ -56,5 +56,5 @@ def products(request):
 
 
 def products_delete(request):
-    Products.objects.truncate()
+    Products.objects.all().delete()
     return render(request, "upload.html")
