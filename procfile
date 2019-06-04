@@ -1,1 +1,1 @@
-web: gunicorn product_importer.wsgi --log-file -
+web: gunicorn product_importer.wsgi
